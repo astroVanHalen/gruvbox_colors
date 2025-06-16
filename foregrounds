@@ -1,0 +1,7 @@
+--fg-dark0: #928374; /* Gray */
+--fg-dark0-soft: #928374; /* Gray */
+--fg-light0: #fbf1c7; /* Light0 */
+--fg-light1: #ebdbb2; /* Light1 */
+--fg-light2: #d5c4a1; /* Light2 */
+--fg-light3: #bdae93; /* Light3 */
+--fg-light4: #a89984; /* Light4 */
