@@ -1,0 +1,85 @@
+/* Define Gruvbox color palette as CSS variables */
+:root {
+    /* Backgrounds */
+    --bg-dark0: #282828;
+    --bg-dark1: #3c3836;
+    --bg-dark2: #504945;
+    --bg-dark3: #665c54;
+    --bg-dark4: #7c6f64;
+    --bg-light0: #fbf1c7;
+    --bg-light1: #ebdbb2;
+    --bg-light2: #d5c4a1;
+    --bg-light3: #bdae93;
+    --bg-light4: #a89984;
+
+    /* Foregrounds */
+    --fg-dark0: #928374;
+    --fg-light0: #fbf1c7;
+    --fg-light1: #ebdbb2;
+    --fg-light2: #d5c4a1;
+    --fg-light3: #bdae93;
+    --fg-light4: #a89984;
+
+    /* Bright Colors */
+    --bright-red: #fb4934;
+    --bright-green: #b8bb26;
+    --bright-yellow: #fabd2f;
+    --bright-blue: #83a598;
+    --bright-purple: #d3869b;
+    --bright-aqua: #8ec07c;
+    --bright-orange: #fe8019;
+
+    /* Neutral Colors */
+    --neutral-red: #cc241d;
+    --neutral-green: #98971a;
+    --neutral-yellow: #d79921;
+    --neutral-blue: #458588;
+    --neutral-purple: #b16286;
+    --neutral-aqua: #689d6a;
+    --neutral-orange: #d65d0e;
+
+    /* Faded Colors */
+    --faded-red: #9d0006;
+    --faded-green: #79740e;
+    --faded-yellow: #b57614;
+    --faded-blue: #076678;
+    --faded-purple: #8f3f71;
+    --faded-aqua: #427b58;
+    --faded-orange: #af3a03;
+}
+
+/* Apply background and text colors using classes */
+.bg-dark0 { background-color: var(--bg-dark0); color: var(--fg-light0); }
+.bg-dark1 { background-color: var(--bg-dark1); color: var(--fg-light1); }
+.bg-dark2 { background-color: var(--bg-dark2); color: var(--fg-light2); }
+.bg-dark3 { background-color: var(--bg-dark3); color: var(--fg-light3); }
+.bg-dark4 { background-color: var(--bg-dark4); color: var(--fg-light4); }
+.bg-light0 { background-color: var(--bg-light0); color: var(--fg-dark0); }
+.bg-light1 { background-color: var(--bg-light1); color: var(--fg-dark1); }
+.bg-light2 { background-color: var(--bg-light2); color: var(--fg-dark2); }
+.bg-light3 { background-color: var(--bg-light3); color: var(--fg-dark3); }
+.bg-light4 { background-color: var(--bg-light4); color: var(--fg-dark4); }
+
+.text-bright-red { color: var(--bright-red); }
+.text-bright-green { color: var(--bright-green); }
+.text-bright-yellow { color: var(--bright-yellow); }
+.text-bright-blue { color: var(--bright-blue); }
+.text-bright-purple { color: var(--bright-purple); }
+.text-bright-aqua { color: var(--bright-aqua); }
+.text-bright-orange { color: var(--bright-orange); }
+
+.text-neutral-red { color: var(--neutral-red); }
+.text-neutral-green { color: var(--neutral-green); }
+.text-neutral-yellow { color: var(--neutral-yellow); }
+.text-neutral-blue { color: var(--neutral-blue); }
+.text-neutral-purple { color: var(--neutral-purple); }
+.text-neutral-aqua { color: var(--neutral-aqua); }
+.text-neutral-orange { color: var(--neutral-orange); }
+
+.text-faded-red { color: var(--faded-red); }
+.text-faded-green { color: var(--faded-green); }
+.text-faded-yellow { color: var(--faded-yellow); }
+.text-faded-blue { color: var(--faded-blue); }
+.text-faded-purple { color: var(--faded-purple); }
+.text-faded-aqua { color: var(--faded-aqua); }
+.text-faded-orange { color: var(--faded-orange); }
