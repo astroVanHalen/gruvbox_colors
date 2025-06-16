@@ -1,0 +1,14 @@
+--bg-dark0-hard: #1d2021; /* Dark0 Hard */
+--bg-dark0: #282828; /* Dark0 */
+--bg-dark0-soft: #32302f; /* Dark0 Soft */
+--bg-dark1: #3c3836; /* Dark1 */
+--bg-dark2: #504945; /* Dark2 */
+--bg-dark3: #665c54; /* Dark3 */
+--bg-dark4: #7c6f64; /* Dark4 */
+--bg-light0-hard: #f9f5d7; /* Light0 Hard */
+--bg-light0: #fbf1c7; /* Light0 */
+--bg-light0-soft: #f2e5bc; /* Light0 Soft */
+--bg-light1: #ebdbb2; /* Light1 */
+--bg-light2: #d5c4a1; /* Light2 */
+--bg-light3: #bdae93; /* Light3 */
+--bg-light4: #a89984; /* Light4 */
